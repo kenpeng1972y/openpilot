@@ -56,7 +56,7 @@ NOT_SEEN_INIT = 33*5
 def _create_radar_parser():
   messages = [("Status", float('nan')), ("ObjectData", float('nan'))]
   messages += [(f"ObjectData_{i}", float('nan')) for i in range(MAX_OBJECTS)]
-  return CANParser('u_radar', messages, 1)
+  return CANParser('u_radar', messages, 2)
 
 class RadarInterface(RadarInterfaceBase):
   def __init__(self, CP):
