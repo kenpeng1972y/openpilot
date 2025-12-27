@@ -375,7 +375,7 @@ class CAR(Platforms):
       VWCarDocs("Volkswagen Sharan 2018-22"),
       VWCarDocs("SEAT Alhambra 2018-20"),
     ],
-    VolkswagenCarSpecs(mass=1639, wheelbase=2.92, minSteerSpeed=50 * CV.KPH_TO_MS),
+    VolkswagenCarSpecs(mass=1639, wheelbase=2.92, minSteerSpeed=0 * CV.KPH_TO_MS),
     chassis_codes={"7N"},
     wmis={WMI.VOLKSWAGEN_EUROPE_CAR},
   )
